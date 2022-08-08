@@ -1,0 +1,11 @@
+body{
+    background-color: violet;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+form > input{
+    padding: 6px;
+    border-color: azure;
+    border-radius: 1em;
+    border-style: double;
+}

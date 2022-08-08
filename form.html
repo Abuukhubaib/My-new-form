@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="form.css">
+    <head>
+        <title>Login form</title>
+    </head>
+    <body>
+
+        <form action="e-commerce.html" name="form" href="mailto: drudaderobot696@gmail.com" method="post" onsubmit="return(validate());">
+            <input type="text" placeholder="Username" required name="name"><br><br>
+            <input type="email" placeholder="Email address" required name="email"><br><br>
+            <input type="password" placeholder="Password" required name="password"><br><br>
+            <input type="submit" value="login">
+
+            <script type="text/javascript">
+                function validate(){
+                    if(document.form.name.value ==""){
+                        alert("please Enter your username")
+                        document.form.name.focus()
+                        return false; 
+                    }
+                    if(document.form.email.value ==""){
+                        alert("please Enter your email address")
+                        document.form.email.focus()
+                        return false; 
+                    }
+                    if(document.form.password.value ==""){
+                        alert("please Enter password")
+                        document.form.password.focus()
+                        return false; 
+                    }
+                }
+            </script>
+
+
+        </form>
+    </body>
+</html>
